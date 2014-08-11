@@ -28,13 +28,13 @@
         <li id="boton_naranja"><a href="#" class="icon-brush" id="mostrar-form">Login</a></li>
     </ul>
 	</nav>
-	<form id="formulario" class="formulario" name="enviar_formulario" action="datos.php" method="post" />
+	<form id="formulario" class="formulario" name="enviar_formulario" action="modelo/datos.php" method="post" />
 
-		<input type="text" name="name" id="name" placeholder="E-mail" required>
+		<input type="email" name="name" id="name" placeholder="E-mail" required>
 		<input type="password" name="password" id="password" placeholder="Password" required>
 		<input type="submit" name="send" id="send" value="OK">
 		<p><a href="?op=reg">Registrate</a></p>
-		<p> <?= $temp ?> </p>
+		<p> <?= $_GET['ini'] ?> </p>
 	</form>
 
 	

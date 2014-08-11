@@ -6,7 +6,7 @@ CREATE TABLE usuario(
 	email varchar(30) not null,
 	f_name varchar(30) not null,
 	l_name varchar(30) not null,
-	psswd varchar(20) not null,
+	psswd varchar(40) not null,
 	pais varchar(45) not null,
 	image varchar(50),
 

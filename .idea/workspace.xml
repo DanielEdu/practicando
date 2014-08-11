@@ -23,14 +23,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="registro.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modelo/registro.php">
+      <file leaf-file-name="datos.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/modelo/datos.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.5180266" vertical-offset="0" max-vertical-offset="527">
+            <state line="22" column="43" selection-start="494" selection-end="494" vertical-scroll-proportion="-15.4" vertical-offset="0" max-vertical-offset="672">
               <folding>
-                <marker date="1407731639523" expanded="true" signature="186:198" placeholder="SELECT * FRO..contact..." />
-                <marker date="1407731639523" expanded="true" signature="186:228" placeholder="SELECT * FRO..usuario..." />
+                <marker date="1407774884649" expanded="true" signature="102:148" placeholder="SELECT psswd..usuario..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="privado.html.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/privado.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="24" selection-start="406" selection-end="406" vertical-scroll-proportion="0.875" vertical-offset="0" max-vertical-offset="903">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -54,16 +62,22 @@
         <option value="$PROJECT_DIR$/sql/select_pais.php" />
         <option value="$PROJECT_DIR$/conection.php" />
         <option value="$PROJECT_DIR$/select_pais.php" />
+        <option value="$PROJECT_DIR$/sql/usuarios.sql" />
+        <option value="$PROJECT_DIR$/controlador/datos.php" />
+        <option value="$PROJECT_DIR$/modelo/select_pais.php" />
         <option value="$PROJECT_DIR$/modelo/registro.php" />
+        <option value="$PROJECT_DIR$/modelo/datos.php" />
+        <option value="$PROJECT_DIR$/sesion/exit.php" />
+        <option value="$PROJECT_DIR$/views/privado.html.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="234" />
-    <option name="y" value="218" />
-    <option name="width" value="1082" />
-    <option name="height" value="724" />
+    <option name="x" value="94" />
+    <option name="y" value="139" />
+    <option name="width" value="1146" />
+    <option name="height" value="544" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -119,7 +133,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="sql" />
+              <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -133,7 +147,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="modelo" />
+              <option name="myItemId" value="sesion" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicando" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="practicando" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controlador" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -145,13 +173,14 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="settings" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\practicando\modelo" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -198,7 +227,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="234" y="218" width="1082" height="724" extended-state="0" />
+    <frame x="94" y="139" width="1146" height="544" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -206,7 +235,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18667917" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16460177" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -214,11 +243,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -242,40 +271,105 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/modelo/registro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="26" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="510">
+        <state line="13" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="420">
           <folding>
-            <marker date="1407731639523" expanded="true" signature="186:198" placeholder="SELECT * FRO..contact..." />
-            <marker date="1407731639523" expanded="true" signature="186:228" placeholder="SELECT * FRO..usuario..." />
+            <marker date="1407770606119" expanded="true" signature="-1:-1" placeholder="SELECT email..usuario..." />
+            <marker date="1407770606119" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controlador/datos.php">
+    <entry file="file://$PROJECT_DIR$/modelo/registro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="2" selection-start="447" selection-end="447" vertical-scroll-proportion="0.18884893" vertical-offset="0" max-vertical-offset="556" />
+        <state line="5" column="26" selection-start="120" selection-end="120" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="510">
+          <folding>
+            <marker date="1407770606119" expanded="true" signature="-1:-1" placeholder="SELECT email..usuario..." />
+            <marker date="1407770606119" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modelo/select_pais.php">
+    <entry file="file://$PROJECT_DIR$/sql/usuarios.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="6" selection-end="31" vertical-scroll-proportion="0.037906136" vertical-offset="0" max-vertical-offset="554">
+        <state line="8" column="17" selection-start="169" selection-end="169" vertical-scroll-proportion="0.3529412" vertical-offset="0" max-vertical-offset="5712">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modelo/conection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="14" selection-start="124" selection-end="124" vertical-scroll-proportion="0.27171904" vertical-offset="0" max-vertical-offset="541">
+        <state line="16" column="2" selection-start="281" selection-end="281" vertical-scroll-proportion="0.66011786" vertical-offset="0" max-vertical-offset="509">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelo/select_pais.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="333" selection-end="333" vertical-scroll-proportion="0.7319035" vertical-offset="0" max-vertical-offset="399">
+          <folding>
+            <marker date="1407770542363" expanded="true" signature="-1:-1" placeholder="SELECT pais ..paises..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modelo/registro.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.5180266" vertical-offset="0" max-vertical-offset="527">
+        <state line="8" column="25" selection-start="149" selection-end="174" vertical-scroll-proportion="6.3" vertical-offset="357" max-vertical-offset="756">
           <folding>
-            <marker date="1407731639523" expanded="true" signature="186:198" placeholder="SELECT * FRO..contact..." />
-            <marker date="1407731639523" expanded="true" signature="186:228" placeholder="SELECT * FRO..usuario..." />
+            <marker date="1407770606119" expanded="true" signature="-1:-1" placeholder="SELECT email..usuario..." />
+            <marker date="1407770606119" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/registro.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="12" selection-start="713" selection-end="713" vertical-scroll-proportion="1.0697051" vertical-offset="0" max-vertical-offset="525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion/sesion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="19" selection-start="43" selection-end="43" vertical-scroll-proportion="0.1689008" vertical-offset="0" max-vertical-offset="373">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelo/datos.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="43" selection-start="494" selection-end="494" vertical-scroll-proportion="-15.4" vertical-offset="0" max-vertical-offset="672">
+          <folding>
+            <marker date="1407774884649" expanded="true" signature="102:148" placeholder="SELECT psswd..usuario..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.925" vertical-offset="693" max-vertical-offset="1197">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sesion/exit.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="65" selection-end="65" vertical-scroll-proportion="-2.8" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/privado.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="24" selection-start="406" selection-end="406" vertical-scroll-proportion="0.875" vertical-offset="0" max-vertical-offset="903">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,5 @@
 
-	<form name="registro" action="registro.php" method="post">
+	<form name="registro" action="modelo/registro.php" method="post">
 	<fieldset>
 	<legend>Registro de nuevo usuario</legend>
 		<input type="email" name="email" placeholder="e-mail" required /><br>
@@ -12,7 +12,7 @@
 		</select><br>
 		<input type="submit" name="send" value="enviar"><br>
 
-		
+	<p><?= $_GET['mensaje'] ?></p>	
 	</fieldset>
 	</form>
 
