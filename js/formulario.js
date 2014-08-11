@@ -1,6 +1,4 @@
 
-
-
 var $form 	= $('#formulario'),
 	$button	= $('#mostrar-form'),
 	$list	= $('#contenido');

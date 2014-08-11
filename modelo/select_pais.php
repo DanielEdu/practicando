@@ -1,0 +1,1 @@
+<?phpinclude('conection.php');$query1 = "SELECT * FROM paises ORDER BY pais";$ejecutar_query = $plug->query($query1) or die("no se ejecuto el Query");while($registro = $ejecutar_query->fetch_assoc()){    $nombre_pais = utf8_encode($registro["pais"]);    echo "<option value='$nombre_pais'>$nombre_pais</option>";    }

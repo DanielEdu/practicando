@@ -6,17 +6,15 @@
 		<input type="text" name="first_name" placeholder="Nombres" required /><br>
 		<input type="text" name="last_name" placeholder="Apellidos" required /><br>
 		<input type="password" name="password" placeholder="Password" required /><br>
-		<input type="text" name="pais" placeholder="Pais"><br>
-		<input type="submit" name="send" value="enviar"><br>
-		<select  id="pais" class="cambio" name="pais">
+		<select  id="pais" class="cambio" name="pais" required>
 			<option value=""> - - - </option>
-			<?php include("select_pais.php") ?>
-		</select>
+			<?php include("modelo/select_pais.php") ?>
+		</select><br>
+		<input type="submit" name="send" value="enviar"><br>
 
 		
 	</fieldset>
 	</form>
 
 
- XD 
  CFAFSDFASDF

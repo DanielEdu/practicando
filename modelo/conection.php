@@ -4,7 +4,7 @@ function connection()
 {
     $server     = "localhost";
     $user       = "root";
-    $password   = "root";
+    $password   = "";
     $bd         = "usuarios";
 
     $connector = new mysqli($server,$user,$password,$bd) or die("no se pudo conectar");

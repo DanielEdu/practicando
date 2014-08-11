@@ -4,11 +4,11 @@ $op = $_GET['op'];
 switch($op)
 {
     case "reg":
-        $content = "registro.html.php";
+        $content = "views/registro.html.php";
         $title   = "Registrar Usuario";
         break;
     default:
-        $content = "index.html";
+        $content = "views/home.html";
         $title   = "Home";
         break;
 
